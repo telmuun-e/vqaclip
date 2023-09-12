@@ -8,7 +8,7 @@ version = "0.1.0"
 authors = [
   { name="Telmuun Enkhbold", email="telmuun.wj@gmail.com" },
 ]
-description = "VQACLip model"
+description = "VQAClip model"
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers = [
