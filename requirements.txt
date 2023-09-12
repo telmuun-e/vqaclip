@@ -1,0 +1,7 @@
+Pillow
+tqdm
+numpy
+torch
+transformers
+open_clip_torch
+requests

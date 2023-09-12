@@ -1,0 +1,13 @@
+__pycache__
+
+model/*
+!model/.gitkeep
+
+data/raw/train/*
+!data/raw/train/.gitkeep
+data/raw/valid/*
+!data/raw/valid/.gitkeep
+data/preprocessed/train/*
+!data/preprocessed/train/.gitkeep
+data/preprocessed/valid/*
+!data/preprocessed/valid/.gitkeep

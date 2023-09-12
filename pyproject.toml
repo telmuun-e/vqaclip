@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 65", "wheel >= 0.38"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vqaclip"
+version = "0.1.0"
+authors = [
+  { name="Telmuun Enkhbold", email="telmuun.wj@gmail.com" },
+]
+description = "VQACLip model"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dynamic = ["dependencies"]
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
